@@ -1,0 +1,45 @@
+label  {
+	float: left;
+	width: 10em;
+	text-align: right;
+}
+input, select  {
+	width: 20em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+input:invalid  {
+	border: 2px solid #800000;
+}
+input:valid  {
+	border: 2px solid black;
+}
+input:required  {
+		border: 2px solid black;
+}
+
+#submit, #resetform  {
+	margin: 1em;
+	background-color: white;
+	width:10em;
+	border: 2px solid black;
+}
+legend  {
+	font-weight: bold;
+}
+.radiobox input  {
+	width: auto;
+	margin-left: 4em;
+}
+.radiobox label  {
+	float: none;
+}
+
+textarea  {
+	height: 10em;
+	width: 40em;
+}
+main  {
+	height: 350%;
+}

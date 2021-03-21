@@ -1,0 +1,27 @@
+table  {
+//border: 1px solid black;
+//border-collapse:collapse
+width: 25%;
+}
+th, td {
+	//border: 1px solid black;
+	padding:0;
+	padding-right:4.5rem;
+	//padding-right: 1%;
+}
+
+th  {
+	text-align:left;
+	padding-bottom: .5em;
+}
+
+td.leftSide  {
+	font-weight: bold;
+}
+tr.top th{
+	color: rgb(128,0,0);
+}
+
+h1  {
+	text-align: center;
+}

@@ -1,0 +1,12 @@
+img{float:left;}
+p{font-size: 97%;}
+h2{ font-size: 130%;}
+#title{color:rgb(70,130,180); font-style:italic; font-weight: bold; text-shadow:3px 3px 3px rgb(80,130,180);font-size:225%;padding-left: 2em;}
+#bf{padding-left: 2em;}
+a:visited{color:rgb(128,0,0);}
+a:link{color:rgb(128,0,0);}
+a:hover{color:rgb(70,130,180);}
+a:focus{color:rgb(70,130,180);}
+ul li a:visited{color:rgb(70,130,180);}
+ul li a:link{color:rgb(70,130,180);}
+footer{text-align:center; font-size:90%; color: white; vertical-align:center;}

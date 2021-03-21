@@ -1,0 +1,19 @@
+/* header{<!--border:2px solid black;-->text-shadow: 4px 4px 10px blue;} <!--the first value is left-right, the second is top-bottom, the third is blur amount--> */
+body{border:2px solid black;}
+h1{color:#FFA0F0;font-family:Arial;<!--border:2px solid black;-->}
+	p{color:hsla(200, 50%, 50%, .5);font-size:120%;font-family:Arial;}
+.red{color:rgb(255,102,100); font-family:Arial;text-indent:4em;}
+#par{color:rgb(100, 102, 255);text-decoration:underline;clear:left;}
+section p{color:blue;}
+
+input[type="submit"]{background-color:#facd8a; font-size: 130%;}
+input[type="text"]:focus{background-color:yellow;}
+
+
+a:link{color:red;text-decoration:none;}
+a:hover{color:green;}
+p:hover{color:green;}
+a:visited{color:fuchsia;}
+img{float:left;}
+ul.new li{font-size:130%;}
+/* a[href]{color:green;} */

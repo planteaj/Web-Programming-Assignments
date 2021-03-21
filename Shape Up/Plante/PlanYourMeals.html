@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Shape Up!</title>
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" href="shape_up_css.css">
+		<link rel="stylesheet" href="shape_up_css_two.css">
+		<link rel="stylesheet" href="PlanYourMeals.css">
+	</head>
+	<body>
+		<header>
+			<a href="main.html" title="main image"><img id = "logo" src="shape_up_logo.png" alt="No Image"></a>
+			<h2 id="title">Shape Up!</h2>
+			<h2 id="bf"> Find the best fit for you</h2>
+		</header>
+		<nav id="nav_menu">
+			<ul>
+				<li>
+					<a href="main.html#logo">Home</a>
+				</li>
+				<li>
+					<a href="Under Construction.html">Strength Training</a>
+				</li>
+				<li>
+					<a href="Under Construction.html"> Cardio Exercises</a>
+				</li>
+				<li><a href="Under Construction.html">Stress Relief</a>
+					<ul>
+						<li><a href="Under Construction.html">What is stress?</a>
+						<li><a href="Under Construction.html">5 Helpful Tips</a>
+						<li><a href="Under Construction.html">Meditation</a>
+						<li><a href="Under Construction.html">Vispassana</a>
+					</ul>
+				</li>
+				<li><a href="Under Construction.html" class="current">Healthy Diets</a>
+					<ul>
+						<li><a href="Under Construction.html">Why a Healthy Diet?</a>
+						<li><a href="Under Construction.html">Plan Your Meals</a>
+						<li><a href="CalorieCount.html">Count Your Calories</a>
+						<li><a href="Under Construction.html">Calculate Your BMI</a>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<aside class="left">
+			<h2>Additional Resources</h2>
+			<ul class="steel">
+				<li><a href="https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm">Physical activity and health</a></li>
+				<li><a href="https://www.webmd.com/fitness-exercise/ss/slideshow-stretches-to-get-loose">Stretching exercises</a></li>
+				<li><a href="https://www.webmd.com/fitness-exercise/ss/slideshow-start-strength-training">Strength training</a></li>
+				<li><a href="https://diet.mayoclinic.org/diet/move/cardio-101">Cardiovascular training</a></li>
+				<li><a href="https://www.nytimes.com/guides/well/beginner-yoga">Yoga workout</a></li>
+			</ul>
+		</aside>
+		<main>
+
+			<h1>Meal Plan order form</h1>
+			<p>Fill out the form as completely as possible and we will email you a weekly meal plan, customized for you--<i>your</i> lifestyle, <i>your</i> goals, and <i>your</i> personal needs. (Asterisks(*) indicate required entries.)</p>
+			<br>
+			<form id = "form" action="subscribe.php" method="post">
+				<fieldset>
+					<legend>Tell us about yourself</legend>
+
+					<label for="name">* Full Name: </label><input type="text" name="name" required><br>
+					<label for="email">* Email: </label> <input type="email" name="email" required><br>
+					<label for="gender">Gender: </label><select name="gender">
+									<option value="select">Select a gender</option>
+									<option value="Male">Male</option>
+									<option value="Female">Female</option>
+									<option value="other">Other</option>
+								</select><br>
+					<label for="height">Height: </label><input type="text" name="height" placeholder="Example: 5ft, 6in"><br>
+					<label for="weight">Weight: </label><input type="text" name="weight" placeholder="Example: 145lbs"><br>
+					<label for="age">Age: </label><select name="age">
+									<option value="select">Select your age</option>
+									<option value="under">under 18</option>
+									<option value="35">35 - 44</option>
+									<option value="50">50 - 69</option>
+									<option value="70">70+</option>
+								</select><br>
+				</fieldset>
+				<fieldset class="radiobox">
+					<legend>Lifestyle and goals</legend>
+					<p>Which currently matches your present lifestyle?</p>
+					<input type="radio" name ="activity" value="active"><label>Active</label>
+					<input type="radio" name ="activity" value="moderate"><label>Moderate</label>
+					<input type="radio" name ="activity" value="sedentary"><label>Sedentary</label>
+					<p>Are you planning to increase your activity level as you change your diet?</p>
+					<input type="radio" name ="yn" value="active"><label>Yes</label>
+					<input type="radio" name ="yn" value="moderate"><label>No</label>
+					<p>What are your weight goals?</p>
+					<input type="radio" name ="weight" value="gain"><label>Gain weight</label>
+					<input type="radio" name ="weight" value="lose"><label>Lose weight</label>
+					<input type="radio" name ="weight" value="maintain"><label>Maintain current weight</label>
+				</fieldset>
+				<fieldset class="radiobox">
+					<legend>Food preferences and restrictions</legend>
+					<p>Do you have any dietary restrictions? (select all that apply)</p>
+					<input type="checkbox" name="veg" value="veg"><label>Vegetarian</label>
+					<input type="checkbox" name="gluten" value="gluten"><label>Gluten-free</label>
+					<input type="checkbox" name="kosher" value="kosher"><label>Kosher</label>
+					<input type="checkbox" name="salt" value="salt"><label>Low salt</label>
+					<input type="checkbox" name="other" value="other"><label>Other, please explain:</label>
+					<textarea name="otherText"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Comments:</legend>
+					<p>Include any additional information that will help us develop a custom menu designed to match your lifestyle and your goals.</p>
+					<textarea name="commentsText"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Process your information</legend>
+					<input type="submit" id="submit" value="Subscribe now">
+					<input type="reset" id="resetform" value="Start over">
+				</fieldset>
+			</form>
+		</main>
+		<!-- <aside class= "right"> -->
+			<!-- <h2>How to prepare to Shape Up!</h2> -->
+			<!-- <h3>Get a check up</h3> -->
+			<!-- <p>If you have any health issues or take any medications, be sure to consult with your healthcare -->
+			<!-- provider before beginning a new exercise or diet regimen.</p> -->
+			<!-- <h3>Dress for Success</h3> -->
+			<!-- <p>Workout clothes should be comfy. While exercising, you should be thinking about what you're -->
+			<!-- doing, not what you're wearing. That includes good shoes, which are essential for running, -->
+			<!-- jogging, or walking, and socks that absorb shock and sweat.</p> -->
+			<!-- <h3>Equipment?</h3> -->
+			<!-- <p>You don't need to buy a lot of fancy equipment to get in shape. But you might want to invest in a -->
+			<!-- yoga mat, a large exercise ball, or some weights, depending on your Shape Up! plan.</p> -->
+			<!-- <h3>Resist Temptation</h3> -->
+			<!-- <p>It's hard to eat right when everyone else is buying lunch at a fast food restaurant. Invest in some -->
+			<!-- good food containers and bring your healthy lunch and snacks. Your body and your wallet will -->
+			<!-- thank you.</p> -->
+		<!-- </aside> -->
+		<footer>
+			<p>&copy; 2019 Shape Up!</p>
+		</footer>
+	</body>
+</html>
